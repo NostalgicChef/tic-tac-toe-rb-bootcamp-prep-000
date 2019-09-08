@@ -126,7 +126,7 @@ def play(board)
   end
 
   if won?(board)
-    puts "Bazinga #{winner(board)}!"
+    puts "Congratulations #{winner(board)}!"
   elsif draw?(board)
     puts "Bee's Game!"
   end
